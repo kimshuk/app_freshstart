@@ -1,2 +1,1 @@
-# Fresh Start
-###A random identity generator that takes data from such APIs as UINames, Google Maps, and Flickr and condenses them into a workable product. JavaScript is used to pull a random background from a list of variables, as well as making AJAX calls to retrieve the data from the various APIs. For more information and other projects by Shane Somerville, please feel free to check out http://shanesomerville.com .
+
