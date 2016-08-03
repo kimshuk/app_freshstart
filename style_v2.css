@@ -1,0 +1,224 @@
+/*GENERAL*/
+body {
+    background: url(images/planks_background.jpg) no-repeat center fixed;
+    background-size: cover;
+    width:100vw;
+    height:100vh;
+    margin:0;
+    padding:0;
+    font-family: "Special Elite", sans-serif;
+}
+.container {
+    width:100%;
+    height:100%;
+}
+.page {
+    width: 60%;
+    height: 90%;
+    position: fixed;
+    background: url(images/paper_textured.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.blood {
+    position: fixed;
+    opacity: .5;
+    top: 10%;
+    right: 0;
+    height: 90%;
+    width: auto;
+    z-index: 2;
+}
+
+/*PAGE 1 CONTENT*/
+.page_1 {
+    z-index: 30;
+    top: 83%;
+    left: 34%;
+    height: 73%;
+    width: 48%;
+    position: fixed;
+    background: url(images/new_passport12.png) no-repeat center;
+    background-size: 100% 100%;
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+}
+#photo {
+    position: relative;
+    width: 28%;
+    height: 30%;
+    left: 3%;
+    top: 67%;
+}
+#lName {
+    width: 23%;
+    height: 3%;
+    left: 34%;
+    top: 37%;
+    position: relative;
+}
+#fName {
+    width: 30%;
+    height: 3%;
+    left: 34%;
+    top: 38%;
+    position: relative;
+}
+#place_of_issue {
+    width: 23%;
+    height: 3%;
+    left: 34%;
+    top: 48%;
+    position: relative;
+}
+#gender {
+    width: 23%;
+    height: 3%;
+    left: 76%;
+    top: 45%;
+    position: relative;
+}
+/*PAGE 2 CONTENT*/
+.page_2 {
+    z-index: 10;
+    top: 74%;
+    left: 22%;
+    background-color: #D9C6A8;
+
+}
+.top_space {
+    height: 2vh;
+}
+
+.space_between {
+    font-family: "Special Elite", sans-serif;
+    font-size: 1.2vw;
+    padding: 0 4vw;
+    line-height: 100%;
+    min-font-size: 10px;
+}
+
+.new-story-heading{
+
+}
+
+.new-story-para {
+    text-indent: 3em; padding: 3em;
+    font-size: 1.1vw;
+}
+/*
+*   Page 3 content
+*/
+.sepia {
+    -webkit-filter: sepia(80%);
+}
+
+.page_3 {
+    background-color:#D9C6A8;
+    top: 78%;
+    z-index: 20;
+    left: 16%;
+    position:fixed;
+}
+
+.polaroid_1 {
+    background-image: url(images/clip1.png);
+    background-repeat: no-repeat;
+    background-position: top right 20%;
+    background-size: 100%;
+    position: relative;
+    float: right;
+    width: 25vw;
+    height: 43vh;
+}
+
+.car_img {
+    position: relative;
+    top: 7vh;
+    left: 14%;
+    float: left;
+    width: 19vw;
+    height: 27vh;
+    transform: rotate(14.5deg);
+}
+
+.polaroid_1:hover {
+    transition: all 1s ease;
+    transform: rotate(-14.5deg) scale(1.25);
+}
+
+
+.polaroid_2 {
+    background-image: url(images/clip2.png);
+    background-repeat: no-repeat;
+    background-position: top left 20%;
+    background-size: 95%;
+    position: relative;
+    float: left;
+    width: 25vw;
+    height: 43vh;
+}
+
+.house_img {
+    position: relative;
+    float: right;
+    top: 6.5vh;
+    right: 4vw;
+    width: 18vw;
+    height: 28vh;
+    transform: rotate(-14deg);
+}
+.polaroid_2:hover {
+    transition: all 1s ease;
+    transform: rotate(14deg) scale(1.25);
+}
+
+.polaroid_3 {
+    background-image: url(images/clip3.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 95%;
+    position: relative;
+    left: 18%;
+    top: 35%;
+    width: 30vw;
+    height: 61vh;
+}
+
+#map {
+    width: 71%;
+    height: 60%;
+    top: -50%;
+    left: 16%;
+}
+
+.polaroid_3:hover {
+    transition: all 1s ease;
+    transform: scale(1.25);
+}
+/*FOLDER PICS*/
+.manila_back {
+    width: 80%;
+    height: 35%;
+    z-index: 1;
+    margin-left: 10%;
+    position: fixed;
+    bottom: 0;
+}
+.manila_front {
+    width: 80%;
+    height: 14%;
+    z-index: 100;
+    margin-left: 10%;
+    position: fixed;
+    bottom: 0;
+}
+.up {
+    transition: all .8s;
+    border-radius: .5%;
+    box-shadow: 1px -1px 8px #918a8a;
+}
+
+.slide {
+    transform: translate(0, -70vh);
+}
