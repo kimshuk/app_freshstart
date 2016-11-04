@@ -2,8 +2,9 @@
 
 ### Overview
 
-This is an application that utilizes 3 API sources (Google Map, Flickr, and Name Generator). I used AJAX call method to search specific theme photos from Flick and was able to implement on the site.
-For this application, HTML5/CSS3, Javascript, jQuery were utilized.
+A creative and humorous website that creates a new identity for a fugitive.
+
+I used: HTML, CSS, JAVASCRIPT, jQUERY, API, JSON
 
 ### Upcoming projected improvements
 
